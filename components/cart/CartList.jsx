@@ -8,7 +8,7 @@ import {
 } from "../../utils/actionsType";
 import EmptyCart from "./EmptyCart";
 import CartCard from "./CartCard";
-import Checkout from "./CheckOut";
+import Checkout from "./Checkout";
 
 const CartList = () => {
   const { cart, dispatch } = useCart();
