@@ -78,7 +78,7 @@ const Checkout = ({
       </ul>
 
       <div className="flex justify-center mt-4">
-        <Link href={`/orders/${finalPrice}`}>
+        <Link href={`/orders`}>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
             Check out
           </button>

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { FaCheckCircle } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 
-const OrderSuccess = ({ price }) => {
+const OrderSuccess = () => {
   const router = useRouter();
   const currentDate = new Date();
   const formattedDate = currentDate.toLocaleDateString("en-US", {
@@ -38,7 +38,7 @@ const OrderSuccess = ({ price }) => {
               <span className="font-bold">Order Date:</span> {formattedDate}
             </p>
             <p className="text-gray-700">
-              <span className="font-bold">Total Amount:</span> ${price}
+              <span className="font-bold">Total Amount:</span> $******
             </p>
           </div>
         </div>
